@@ -101,4 +101,4 @@ cd ~/claude-skills
 
 ---
 
-<!-- readme-version: eee984fdeeb8410fb5f32254e78db02608ea7f21 -->
+<!-- readme-version: 8fff382540d61af0fe30ab3336b29261a9607e0a -->

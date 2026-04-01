@@ -51,6 +51,9 @@ elif [ -e "$COMMANDS_DIR" ]; then
     exit 1
 fi
 
+# Ensure parent directory exists
+mkdir -p "$(dirname "$COMMANDS_DIR")"
+
 # Create the symlink
 ln -s "$SKILLS_DIR" "$COMMANDS_DIR"
 echo "Linked: $COMMANDS_DIR -> $SKILLS_DIR"
