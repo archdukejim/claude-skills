@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [],
+    "PreToolUse": [],
+    "PostToolUse": [],
+    "Stop": [],
+    "SessionStart": [],
+    "Notification": []
+  },
+  "permissions": {
+    "allow": [],
+    "deny": []
+  },
+  "env": {}
+}
